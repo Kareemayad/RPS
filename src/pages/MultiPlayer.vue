@@ -23,10 +23,15 @@
         <q-card-section horizontal>
           <q-card-section>
             <img
-              v-if="playerOneWeapon != 'none'"
+              v-if="playerTwoWeapon != 'none'"
               :src="'/weapons/' + playerOneWeapon + '.png'"
               height="100"
               width="100"
+            />
+            <q-icon
+              v-else-if="playerOneWeapon != 'none'"
+              size="100px"
+              name="done"
             />
             <q-icon v-else size="100px" name="question_mark" />
           </q-card-section>
