@@ -6,7 +6,7 @@
       color="primary"
       icon="arrow_back"
       size="1rem"
-      href="/"
+      href="/#/"
     />
     <div class="column items-center">
       <div class="q-ma-md text-h2">{{ winner }}</div>
@@ -173,7 +173,3 @@ export default defineComponent({
   },
 });
 </script>
-
-
-
-

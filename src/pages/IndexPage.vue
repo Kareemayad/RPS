@@ -3,8 +3,8 @@
     <div class="column items-center">
       <h3 class="text-center">Rock, Paper, Scissors game!</h3>
       <div class="q-gutter-md">
-        <q-btn color="primary" label="Single-Player" href="/single-player" />
-        <q-btn color="primary" label="Multi-Player" href="/multi-player" />
+        <q-btn color="primary" label="Single-Player" href="/#/single-player" />
+        <q-btn color="primary" label="Multi-Player" href="/#/multi-player" />
       </div>
       <img src="rules.png" height="200" width="200" />
     </div>

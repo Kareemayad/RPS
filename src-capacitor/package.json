@@ -1,0 +1,12 @@
+{
+  "name": "rps",
+  "version": "0.0.1",
+  "description": "Rock paper scizzors game",
+  "author": "MahmoodKhalil57 <46604753+MahmoodKhalil57@users.noreply.github.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^2.5.0",
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0"
+  }
+}
